@@ -10,7 +10,7 @@ when alpha == 1 -> {
 }
 
 while alpha < 10 {
-    alpha = 0alpha + 1
+    alpha = alpha + 1
     output alpha
 }
 
