@@ -1,0 +1,26 @@
+int alpha = 0
+bool beta = false
+Arr<int> charlie = {1,2,3}
+
+when alpha == 0 -> output 'hello world'
+when alpha == 1 -> {
+    output 'hello one'
+} else -> {
+    output 'hello none'
+}
+
+while alpha < 10 {
+    alpha = 0alpha + 1
+    output alpha
+}
+
+input alpha
+when {
+    alpha == 1 -> output 'hey'
+    alpha == 2 -> output 'heey'
+    alpha == 3 -> output 'heeey'
+    else -> output 'too big'
+}
+
+beta = charlie[2]
+charlie[2] = alpha
